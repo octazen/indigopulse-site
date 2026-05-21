@@ -744,6 +744,9 @@ img {
 }
 
 .platform-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.42rem;
   min-height: 2.15rem;
   padding: 0.5rem 0.72rem;
   border: 1px solid rgba(184, 196, 209, 0.22);
@@ -761,12 +764,36 @@ img {
     transform 180ms ease;
 }
 
+.platform-button::before {
+  content: "";
+  width: 0.54rem;
+  height: 0.54rem;
+  border: 1px solid rgba(184, 196, 209, 0.36);
+  border-radius: 999px;
+  background: rgba(5, 10, 18, 0.34);
+  transition:
+    background-color 180ms ease,
+    border-color 180ms ease,
+    box-shadow 180ms ease;
+}
+
 .platform-button:hover,
-.platform-button:focus-visible,
-.platform-button.active {
+.platform-button:focus-visible {
   border-color: rgba(232, 201, 112, 0.38);
   background: rgba(242, 239, 232, 0.1);
   color: var(--text);
+}
+
+.platform-button.active {
+  border-color: rgba(232, 201, 112, 0.58);
+  background: rgba(214, 191, 128, 0.16);
+  color: var(--text);
+}
+
+.platform-button.active::before {
+  border-color: rgba(232, 201, 112, 0.88);
+  background: rgba(232, 201, 112, 0.92);
+  box-shadow: 0 0 0 3px rgba(232, 201, 112, 0.12);
 }
 
 .platform-button:hover,
