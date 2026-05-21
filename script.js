@@ -9,46 +9,55 @@ const indigoPulseTrackLinks = {
     spotify: "https://open.spotify.com/track/3paRXfDBitmqd4aDvvFAfF",
     apple: "https://music.apple.com/us/album/seventh-step/1895857664?i=6764631951",
     amazon: "https://music.amazon.com/tracks/B0GYYXQ2Y7",
+    youtube: "https://youtu.be/K7AOHaPc-S8?si=Ck0RzauF2YywjN6c",
   },
   "one-short-of-a-dozen": {
     spotify: "https://open.spotify.com/track/1oASioAD6ixoThCv0bwBWd",
     apple: "https://music.apple.com/us/album/one-short-of-a-dozen/1895857664?i=6764632236",
     amazon: "https://music.amazon.com/tracks/B0GYZ76YCX",
+    youtube: "https://youtu.be/Rl_Bnu9Z-bo?si=4YCocZhXHchFAvEb",
   },
   "digital-sanctuary": {
     spotify: "https://open.spotify.com/track/1pSSt8pyJwEds8fBghnUeN",
     apple: "https://music.apple.com/us/album/digital-sanctuary/1895857664?i=6764631961",
     amazon: "https://music.amazon.com/tracks/B0GYYYT8BB",
+    youtube: "https://youtu.be/2jZGKCxvi98?si=S1_SonZITu8iyBiM",
   },
   "your-shadow-in-every-window": {
     spotify: "https://open.spotify.com/track/45iRLK7u7wnyWnD685D5yU",
     apple: "https://music.apple.com/us/album/your-shadow-in-every-window/1895857664?i=6764631956",
     amazon: "https://music.amazon.com/tracks/B0GYYRB73C",
+    youtube: "https://youtu.be/eEbrQkWHV1o?si=3bSmhC6LefxZLrKr",
   },
   "blue-lullaby": {
     spotify: "https://open.spotify.com/track/6Vi4S5CpVxAfzzNwqoPQiM",
     apple: "https://music.apple.com/us/album/blue-lullaby/1895857664?i=6764631957",
     amazon: "https://music.amazon.com/tracks/B0GYYQZKG9",
+    youtube: "https://youtu.be/QTlWmjJgHM0?si=6_OJK1Driv5_xz5R",
   },
   "same-small-ritual": {
     spotify: "https://open.spotify.com/track/78zw2QDjWqkCTkVAFp9P49",
     apple: "https://music.apple.com/us/album/same-small-ritual/1895857664?i=6764632238",
     amazon: "https://music.amazon.com/tracks/B0GYYR3ZXP",
+    youtube: "https://youtu.be/4EZSMfNASvg?si=J6Mb3wVSS1wQhu4P",
   },
   "the-moment-is-here": {
     spotify: "https://open.spotify.com/track/0Dw62YsoHJX328hiZiPK7I",
     apple: "https://music.apple.com/us/album/the-moment-is-here/1895857664?i=6764631952",
     amazon: "https://music.amazon.com/tracks/B0GYZFGJN5",
+    youtube: "https://youtu.be/7IcZCz36u3g?si=4Kwcoa0-JvOgGwid",
   },
   "maybe-love-moves-like-this": {
     spotify: "https://open.spotify.com/track/5ovUOXJSvc3flV9tj2fMd3",
     apple: "https://music.apple.com/us/album/maybe-love-moves-like-this/1895857664?i=6764631958",
     amazon: "https://music.amazon.com/tracks/B0GYZ7RJ28",
+    youtube: "https://youtu.be/RmuPnFxja1Y?si=2WCVurGSld9lMbrV",
   },
   "love-will-win": {
     spotify: "https://open.spotify.com/track/3qihZqYczkapoLJyIKEi8K",
     apple: "https://music.apple.com/us/album/love-will-win/1895857664?i=6764632233",
     amazon: "https://music.amazon.com/tracks/B0GYZ8LR74",
+    youtube: "https://youtu.be/KSoTZjcHUPY?si=5hMwBMHMUqrL-JQE",
   },
 };
 
