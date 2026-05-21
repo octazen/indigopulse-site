@@ -708,6 +708,18 @@ img {
   grid-column: 1 / -1;
 }
 
+.listening-paths {
+  display: grid;
+  gap: 0.95rem;
+  margin: 1rem 0 1.15rem;
+}
+
+.listening-path p:last-child {
+  margin: 0.12rem 0 0;
+  color: var(--muted-strong);
+  line-height: 1.55;
+}
+
 .streaming-links {
   display: flex;
   flex-wrap: wrap;
