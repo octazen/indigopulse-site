@@ -592,6 +592,21 @@ img {
   letter-spacing: -0.02em;
 }
 
+.about-page {
+  grid-template-columns: 1fr;
+}
+
+.about-page .page-hero-copy {
+  min-height: auto;
+  justify-content: flex-start;
+}
+
+.about-page .page-hero-copy p:not(.eyebrow):not(.hero-tagline) {
+  max-width: 74ch;
+  color: var(--muted);
+  line-height: 1.72;
+}
+
 .album-summary {
   display: grid;
   align-content: start;
