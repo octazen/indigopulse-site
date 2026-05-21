@@ -160,40 +160,67 @@
                 rhythmic side to the more nocturnal and melodic corners of the
                 record.
               </p>
+              <div class="platform-selector" aria-label="Choose streaming platform">
+                <span class="platform-selector-label">Choose platform:</span>
+                <button
+                  type="button"
+                  class="platform-button active"
+                  data-platform="spotify"
+                  aria-pressed="true"
+                >
+                  Spotify
+                </button>
+                <button
+                  type="button"
+                  class="platform-button"
+                  data-platform="apple"
+                  aria-pressed="false"
+                >
+                  Apple Music
+                </button>
+                <button
+                  type="button"
+                  class="platform-button"
+                  data-platform="amazon"
+                  aria-pressed="false"
+                >
+                  Amazon Music
+                </button>
+              </div>
+              <p class="platform-helper">Song links open on the selected platform.</p>
               <div class="listening-paths" aria-label="Suggested listening paths">
                 <div class="listening-path">
                   <p class="contact-label">For the rhythmic side</p>
-                  <p>Seventh Step &rarr; One Short of a Dozen &rarr; Digital Sanctuary</p>
+                  <p class="path-line">
+                    <a class="path-track-link" data-track="seventh-step" href="#">Seventh Step</a>
+                    <span class="path-arrow">&rarr;</span>
+                    <a class="path-track-link" data-track="one-short-of-a-dozen" href="#">One Short of a Dozen</a>
+                    <span class="path-arrow">&rarr;</span>
+                    <a class="path-track-link" data-track="digital-sanctuary" href="#">Digital Sanctuary</a>
+                  </p>
                 </div>
                 <div class="listening-path">
                   <p class="contact-label">For the nocturnal/modal side</p>
-                  <p>Your Shadow in Every Window &rarr; Love Will Win &rarr; Same Small Ritual</p>
+                  <p class="path-line">
+                    <a class="path-track-link" data-track="your-shadow-in-every-window" href="#">Your Shadow in Every Window</a>
+                    <span class="path-arrow">&rarr;</span>
+                    <a class="path-track-link" data-track="love-will-win" href="#">Love Will Win</a>
+                    <span class="path-arrow">&rarr;</span>
+                    <a class="path-track-link" data-track="same-small-ritual" href="#">Same Small Ritual</a>
+                  </p>
                 </div>
                 <div class="listening-path">
                   <p class="contact-label">For the most accessible entry point</p>
-                  <p>The Moment Is Here &rarr; Maybe Love Moves Like This &rarr; Blue Lullaby</p>
+                  <p class="path-line">
+                    <a class="path-track-link" data-track="the-moment-is-here" href="#">The Moment Is Here</a>
+                    <span class="path-arrow">&rarr;</span>
+                    <a class="path-track-link" data-track="maybe-love-moves-like-this" href="#">Maybe Love Moves Like This</a>
+                    <span class="path-arrow">&rarr;</span>
+                    <a class="path-track-link" data-track="blue-lullaby" href="#">Blue Lullaby</a>
+                  </p>
                 </div>
               </div>
-              <div class="streaming-links" aria-label="Listen to These Are Odd Times">
-                <a
-                  class="streaming-link"
-                  href="https://open.spotify.com/album/4sxQZq7DrYxzUpGNXLaTnz"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >Spotify</a>
-                <a
-                  class="streaming-link"
-                  href="https://music.apple.com/album/these-are-odd-times/1895857664?app=music"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >Apple Music</a>
-                <a
-                  class="streaming-link"
-                  href="https://music.amazon.com/albums/B0GYZ81ZBF"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >Amazon Music</a>
-              </div>
+              <a class="all-tracks-link" href="music.html">View all tracks and platforms &rarr;</a>
             </article>
           </div>
         </section>
@@ -207,6 +234,6 @@
       </footer>
     </div>
 
-    <script src="script.js"></script>
+    <script src="script.js?v=2"></script>
   </body>
 </html>
