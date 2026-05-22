@@ -569,6 +569,7 @@ img {
 }
 
 .page-hero-copy {
+  position: relative;
   display: flex;
   min-height: 22rem;
   flex-direction: column;
@@ -601,10 +602,61 @@ img {
   justify-content: flex-start;
 }
 
+.about-card-text {
+  position: relative;
+  z-index: 1;
+}
+
 .about-page .page-hero-copy p:not(.eyebrow):not(.hero-tagline) {
   max-width: 74ch;
   color: var(--muted);
   line-height: 1.72;
+}
+
+.about-card-image {
+  display: none;
+}
+
+@media (min-width: 960px) {
+  .about-page .page-hero-copy {
+    --about-image-gap: clamp(0.75rem, 2vw, 1.35rem);
+    --about-image-size: clamp(9rem, 24vw, 18rem);
+  }
+
+  .about-card-text {
+    max-width: calc(100% - var(--about-image-size) - var(--about-image-gap));
+  }
+
+  .about-card-image {
+    position: absolute;
+    top: 50%;
+    right: 2rem;
+    display: block;
+    width: var(--about-image-size);
+    aspect-ratio: 1 / 1;
+    transform: translateY(-50%);
+    border: 1px solid rgba(184, 196, 209, 0.2);
+    border-radius: calc(var(--radius) - 0.2rem);
+    background-image: url("images/Asymmetric tiles.jpg");
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 20px 52px rgba(0, 0, 0, 0.28);
+  }
+}
+
+@media (max-width: 959px) {
+  .about-page .page-hero-copy {
+    --about-image-gap: 0;
+    --about-image-size: 0;
+  }
+
+  .about-card-text {
+    max-width: none;
+  }
+
+  .about-card-image {
+    display: none;
+  }
 }
 
 .album-summary {
