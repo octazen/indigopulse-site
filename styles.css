@@ -164,6 +164,17 @@ img {
   color: var(--muted);
 }
 
+.release-meta,
+.small-label,
+.eyebrow,
+.card-title {
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
 #music .eyebrow,
 #about .eyebrow,
 #visuals .eyebrow,
@@ -617,6 +628,67 @@ img {
   display: none;
 }
 
+.press-section {
+  padding: 0 0 2.5rem;
+}
+
+.press-card {
+  display: grid;
+  gap: 1.25rem;
+  max-width: 74rem;
+  background:
+    linear-gradient(180deg, rgba(242, 239, 232, 0.075), rgba(242, 239, 232, 0.035)),
+    rgba(8, 17, 31, 0.72);
+}
+
+.press-list {
+  display: grid;
+  gap: 1.2rem;
+}
+
+.press-item {
+  display: grid;
+  gap: 0.85rem;
+}
+
+.press-item-header {
+  display: grid;
+  gap: 0.35rem;
+}
+
+.press-item-header h3 {
+  margin: 0;
+  font-size: clamp(1.15rem, 2vw, 1.55rem);
+  line-height: 1.16;
+}
+
+.press-item-header a {
+  color: rgba(214, 191, 128, 0.82);
+  transition: color 180ms ease, opacity 180ms ease;
+}
+
+.press-item-header a:hover,
+.press-item-header a:focus-visible {
+  color: rgba(232, 201, 112, 0.98);
+  opacity: 1;
+}
+
+.press-item-header p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.press-item > p {
+  max-width: 72ch;
+  margin: 0;
+  color: var(--muted-strong);
+  line-height: 1.72;
+}
+
 @media (min-width: 960px) {
   .about-page .page-hero-copy {
     --about-image-gap: clamp(0.75rem, 2vw, 1.35rem);
@@ -765,8 +837,12 @@ img {
 
 .release-card h3 {
   margin-top: 0.85rem;
-  font-size: clamp(1.35rem, 2.5vw, 2.15rem);
+  font-size: clamp(1.45rem, 2.6vw, 2.25rem);
   line-height: 1.1;
+}
+
+.card-title {
+  margin: 0;
 }
 
 .release-cover {
